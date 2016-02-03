@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeakMyText</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_select_lang">Select_lang</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_myjobs">Myjobs</string>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Urdu</item>
+        <item>Punjabi</item>
+    </string-array>
+
+    <string name="title_Vaccine_record">Home</string>
+    <string name="title_activity_translate">Translate</string>
+    <string name="title_activity_viewmyjob">Viewmyjob</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_temp">Temp</string>
+    <string name="title_activity_read">Listen</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>

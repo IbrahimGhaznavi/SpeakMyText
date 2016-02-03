@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+        <item name="actionBarStyle">@style/AppActionBar</item>
+    </style>
+
+    <style name="AppActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/bg_action_bar</item>
+        <item name="android:icon">@drawable/ic_home</item>
+        <item name="background">@color/bg_action_bar</item>
+        <item name="icon">@drawable/ic_home</item>
+    </style>
+
+</resources>

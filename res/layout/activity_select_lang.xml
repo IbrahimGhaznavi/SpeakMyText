@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:id="@+id/textView"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+        android:background="#8A6DE9"
+        android:text="Select Language"
+        android:textSize="30px"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+     <ListView
+        android:id="@+id/lang_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+    <Button
+        android:id="@+id/lang_next_btn"
+        android:layout_marginTop="30px"
+		android:layout_marginBottom="30px"
+        android:layout_marginLeft="20px"
+        android:layout_width="430px"
+        android:layout_height="80px"
+        android:text="Next" 
+        android:background="#b7b2b2"
+        android:textColor="@android:color/white"
+        android:textSize="32px"
+         />
+	
+    
+</LinearLayout>

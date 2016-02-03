@@ -1,0 +1,97 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <LinearLayout
+      android:id="@+id/take_l1"
+      android:layout_width="440px"
+      android:layout_height="600px"
+      android:layout_marginLeft="20px"
+      android:layout_marginTop="10px"
+      android:orientation="vertical" >
+
+      <LinearLayout
+          android:id="@+id/imagecontainer"
+          android:layout_width="292dp"
+          android:layout_height="292dp"
+          android:layout_weight="0.90"
+          android:background="@drawable/imageboundary" >
+
+          <ImageView
+              android:id="@+id/image"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginLeft="7dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginRight="7dp"
+              android:layout_marginBottom="5dp"
+              android:gravity="center"
+              android:src="@drawable/takepic" />
+      </LinearLayout>
+
+      <RelativeLayout
+          android:id="@+id/r1"
+          android:layout_width="match_parent"
+          android:layout_height="51dp"
+          android:layout_marginTop="0.5dp"
+          android:background="@drawable/boundaries"
+          android:visibility="visible" >
+
+          <ImageView
+              android:id="@+id/iv3"
+              android:layout_width="45dp"
+              android:layout_height="40dp"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:layout_marginRight="18dp"
+              android:background="#ffffff"
+              android:clickable="true"
+              android:src="@drawable/cancel"
+              android:visibility="gone" />
+
+          <ImageView
+              android:id="@+id/iv1"
+              android:layout_width="45dp"
+              android:layout_height="40dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignTop="@+id/iv2"
+              android:layout_marginLeft="24dp"
+              android:background="#ffffff"
+              android:clickable="true"
+              android:src="@drawable/tick"
+              android:visibility="gone" />
+
+          <View
+              android:layout_width="1dp"
+              android:layout_height="fill_parent"
+              android:layout_alignParentTop="true"
+              android:layout_marginLeft="29dp"
+              android:layout_toRightOf="@+id/iv2"
+              android:background="@android:color/darker_gray" />
+
+          <ImageView
+              android:id="@+id/iv2"
+              android:layout_width="45dp"
+              android:layout_height="35dp"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:background="#ffffff"
+              android:clickable="true"
+              android:src="@drawable/capture_image" />
+
+          <View
+              android:layout_width="1dp"
+              android:layout_height="fill_parent"
+              android:layout_alignParentTop="true"
+              android:layout_marginRight="31dp"
+              android:layout_toLeftOf="@+id/iv2"
+              android:background="@android:color/darker_gray" />
+
+      </RelativeLayout>
+
+  </LinearLayout>
+
+</LinearLayout>
